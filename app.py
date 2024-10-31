@@ -57,7 +57,7 @@ def summarize_results_with_llama(search_results):
     text_to_summarize = "\n".join([f"{item['title']}: {item['snippet']}" for item in search_results])
     
     # Call LLAMA API
-    llm_api_url = "https://api.your-llama-endpoint.com/summarize"  # Replace with actual LLAMA API endpoint
+    llm_api_url = "https://sakksham.streamlit.app"  # Replace with actual LLAMA API endpoint
     llm_api_key = "LA-d54c3eb8a64f43e481ec890f62d1f212adc5085475324374a8692c2f853be9c4"  # Your LLAMA API key
 
     payload = {
