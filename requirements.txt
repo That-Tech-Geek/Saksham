@@ -1,0 +1,8 @@
+streamlit==1.16.0
+textblob==0.15.3
+SpeechRecognition==3.8.1
+gtts==2.2.3
+pydub==0.25.1
+transformers==4.28.0
+langdetect==1.0.9
+requests==2.31.0
